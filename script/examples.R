@@ -46,7 +46,7 @@ framed_fruit %>%
   mutate(has_apple = str_detect(fruit_name, "apple"))   #or
 
 framed_fruit %>% 
-  filter(str_detect(fruit_name, "apple"))
+  filter(str_detect(fruit_name, "apple")) 
 
 
 # All currants
